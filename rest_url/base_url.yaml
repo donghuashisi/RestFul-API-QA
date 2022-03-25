@@ -1,0 +1,10 @@
+base_url:
+offset_url:
+  cli:
+    mount_point: '/template/device/config/vbond'
+    method: 'get'
+    # payload:
+  dash_status:
+    mount_point: '/device/action/status/tasks'
+    method: 'get'
+  

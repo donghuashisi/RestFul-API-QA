@@ -185,6 +185,7 @@ def engine_entrance(expect_template={}, rest_data={}):
         expect_template_copy.pop('smart_engine')
     else:
         smart_engine = {}
+        expect_template_copy = expect_template
     return base_engine(expect_template_copy, rest_data, smart_engine=smart_engine)
 
 

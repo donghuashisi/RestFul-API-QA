@@ -1,0 +1,6 @@
+mapping:
+  - url: 'cli'
+    feed_data: 'demo'
+  - url: 'dash_status'
+    feed_data: 'dash_status'
+
